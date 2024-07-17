@@ -2,6 +2,22 @@
     scroll-behavior: smooth;
 }
 
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+#Inicio {
+    background-size: cover;
+}
+
+#IconP {
+    background-color: aqua;
+}
+
+
+
+
+
 footer {
-    background-color: cyan;
+    background-color: aqua;
 }
