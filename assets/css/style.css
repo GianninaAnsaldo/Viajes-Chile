@@ -1,13 +1,15 @@
 * {
     scroll-behavior: smooth;
+    padding: 0%;
+    margin: 0%;
 }
 
 body {
     font-family: 'Roboto', sans-serif;
 }
 
-#Inicio {
-    background-size: cover;
+hr {
+    color: #fff;
 }
 
 #IconP {
