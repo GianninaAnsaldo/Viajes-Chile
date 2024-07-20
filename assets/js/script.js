@@ -9,15 +9,15 @@ document.addEventListener('DOMContentLoaded', function () {
     });
 });
 
-//Cambio color al hacer doble click
+//Cambio color al hacer click
 $(document).ready(function () {
-    $("#ingredientes").on("dblclick", function () {
-        $(this).css("color", "cyan");
+    $("#inicio").on("click", function () {
+        $(this).css("color", "black");
     });
 });
 
 $(document).ready(function () {
-    $("#preparacion").on("dblclick", function () {
-        $(this).css("color", "red");
+    $("QuienesSomos").on("click", function () {
+        $(this).css("color", "cyan");
     });
 });

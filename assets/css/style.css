@@ -21,6 +21,11 @@ hr {
     background-color: rgb(47, 198, 236);
 }
 
+.tooltip  .tooltip-inner{
+    background-color: #fff;
+    color: black;
+}
+
 footer {
     background-color:rgb(47, 198, 236);
 }
