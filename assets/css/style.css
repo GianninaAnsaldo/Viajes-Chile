@@ -13,13 +13,14 @@ hr {
 }
 
 #IconP {
-    background-color: aqua;
+    background-color: rgb(47, 198, 236);
+    text-align: center;
 }
 
-
-
-
+.btn {
+    background-color: rgb(47, 198, 236);
+}
 
 footer {
-    background-color: aqua;
+    background-color:rgb(47, 198, 236);
 }

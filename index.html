@@ -24,10 +24,10 @@
     <!--Navbar-->
     <header>
         <div class="wrapHead">
-            <nav class="navbar navbar-expand-lg fixed-top bg-transparent">
+            <nav class="navbar navbar-expand-lg fixed-top bg-info bg-gradient bg-opacity-10">
                 <div class="container">
                     <img class="logo-viajes" src="assets/img/viajes.svg" alt="logo-viajes-chile" style="width: 20px;">
-                    <a class="navbar-brand" href="#">Viajes chile</a>
+                    <a class="navbar-brand link-light" id="" href="#">Viajes chile</a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
@@ -35,16 +35,16 @@
                     <div class="collapse navbar-collapse" id="navbarNav">
                         <ul class="navbar-nav ms-auto">
                             <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                                <a class="nav-link active link-light" aria-current="page" id="Inicio" href="#">Inicio</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Quienes somos</a>
+                                <a class="nav-link link-light" id="QuienesSomos" href="#">Quienes somos</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Destacados</a>
+                                <a class="nav-link link-light" id="Destacados" href="#">Destacados</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Contacto</a>
+                                <a class="nav-link link-light" id="Contacto" href="#">Contacto</a>
                             </li>
                         </ul>
                     </div>
@@ -83,14 +83,16 @@
         </div>
     </section>
     <!--¿Quiénes somos?-->
-    <section id="quienessomos" class="bg-black">
+    <section id="quienessomos" class="bg-black d-none d-lg-block">
         <div class="container text-white">
             <div class="row d-flex justify-content-center">
                 <h2 class="text-center fw-light fs-4 pt-5 pb-2">¿QUIÉNES SOMOS?</h2>
                 <hr>
                 <div class="container g-col-6 g-col-md-4 d-flex pt-3 pb-4">
                     <div class="col-md-4 mx-3">
-                        <i id="IconP"><i class="fa-solid fa-plane"></i></i>
+                        <div id="IconP">
+                            <i id="IconP"><i class="fa-solid fa-plane"></i></i>    
+                        </div>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec mattis ante nulla. Donec in
                             neque consectetur,
                             ultrices
@@ -125,10 +127,15 @@
                             massa pellentesque,
                             id
                             interdum nibh luctus. Nam ac orci id neque posuere aliquam.</p>
-                        <i id="IconP"><i class="fa-solid fa-mountain"></i></i>
+                        <div id="IconP">
+                            <i id="IconP"><i class="fa-solid fa-mountain"></i></i>    
+                        </div>
                     </div>
                     <div class="col-md-4 mx-3">
-                        <i id="IconP"><i class="fa-solid fa-route"></i></i>
+                        <div id="IconP">
+                           <i id="IconP"><i class="fa-solid fa-route"></i></i>    
+                        </div>
+                        
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec mattis ante nulla. Donec in
                             neque
                             consectetur, ultrices
@@ -154,12 +161,11 @@
     <section id="destacados" class="bg-black">
         <div class="container">
             <div class="row">
-                <h2 class="text-center fw-light text-white fs-4 pt-5 pb-2">Destacados</h2>
+                <h2 class="text-center fw-light text-white fs-4 pt-5 pb-2">DESTACADOS</h2>
                 <hr>
-                <div class="d-flex justify-content-center pt-3">
-                    <div class="col-md-4">
-                        <div class="card col-4 bg-info text-white" style="width: 24rem;">
-                            <img src="assets/img/card1.jpg" class="card-img-top" alt="...">
+                <div class="row gap-4 justify-content-evenly">
+                        <div class="card col-10 col-sm-5 col-md-4 p-0 bg-info text-white rounded-0" style="width: 19rem;">
+                            <img src="assets/img/card1.jpg" class="card-img-top rounded-0" alt="...">
                             <div class="card-body">
                                 <h5>Lorem ipsum dolor sit amet</h5>
                                 <p>Lorem ipsum dolor sit amet,
@@ -168,8 +174,8 @@
                                     et dolore magna aliqua.</p>
                             </div>
                         </div>
-                        <div class="card col-4 bg-info text-white" style="width: 24rem;">
-                            <img src="assets/img/card2.jpg" class="card-img-top" alt="...">
+                        <div class="card col-10 col-sm-5 col-md-4 p-0 bg-info text-white rounded-0" style="width: 19rem;">
+                            <img src="assets/img/card2.jpg" class="card-img-top rounded-0" height="201.33px" alt="...">
                             <div class="card-body">
                                 <h5>Consectetur adipiscing elit</h5>
                                 <p>Lorem ipsum dolor sit amet,
@@ -178,8 +184,8 @@
                                     et dolore magna aliqua.</p>
                             </div>
                         </div>
-                        <div class="card col-4 bg-info text-white" style="width: 24rem;">
-                            <img src="assets/img/card3.jpg" class="card-img-top" alt="...">
+                        <div class="card col-10 col-sm-5 col-md-4 p-0 bg-info text-white rounded-0" style="width: 19rem;">
+                            <img src="assets/img/card3.jpg" class="card-img-top rounded-0" alt="...">
                             <div class="card-body">
                                 <h5>Sed do eiusmod tempor</h5>
                                 <p>incididunt ut labore
@@ -189,8 +195,8 @@
                                     et dolore magna aliqua.</p>
                             </div>
                         </div>
-                        <div class="card col-4 bg-info text-white" style="width: 24rem;">
-                            <img src="assets/img/card4.jpg" class="card-img-top" alt="...">
+                        <div class="card col-10 col-sm-5 col-md-4 p-0 bg-info text-white rounded-0" style="width: 19rem;">
+                            <img src="assets/img/card4.jpg" class="card-img-top rounded-0" alt="...">
                             <div class="card-body">
                                 <h5>Ut enim ad minim veniam</h5>
                                 <p>Lorem ipsum dolor sit amet,
@@ -199,7 +205,6 @@
                                     et dolore magna aliqua.</p>
                             </div>
                         </div>
-                    </div>
                 </div>
 
             </div>
@@ -208,7 +213,7 @@
     <!--Formulario Contacto-->
     <section class="p-5 mx-6 align-content-center bg-black text-white fw-light">
         <div class="container">
-            <h2 class="text-center fw-light text-white fs-4 pt-5 pb-2">Contacto</h2>
+            <h2 class="text-center fw-light text-white fs-4 pt-5 pb-2">CONTACTO</h2>
             <hr>
             <form>
                 <div class="mb-3">
@@ -225,19 +230,21 @@
                         style="height: 100px"></textarea>
                 </div>
                 <div>
-                    <button type="button" class="btn btn-hero-solid text-white py-1 px-4">Enviar</button>
+                    <button type="button" class="btn btn-hero-solid text-white py-1 px-4" id="EnviarCorreo" data-bs-toggle="tooltip" data-bs-placement="bottom" tittle="Enviar por correo">Enviar</button>
                 </div>
             </form>
         </div>
     </section>
     <!--Footer-->
-    <footer class="text-white">
-        <h5 class="align-content-lg-start">VIAJES CHILE</h5>
-        <i><i class="fa-brands fa-github"></i></i>
-        <i><i class="fa-brands fa-linkedin"></i></i>
-        <i><i class="fa-brands fa-square-twitter"></i></i>
-        <i><i class="fa-brands fa-square-facebook"></i></i>
-    </footer>
+    <footer class="text-white py-4 px-5 d-flex justify-content-evenly">
+         <h5 class="fw-light d-inline">VIAJES CHILE</h5>
+        <div> 
+         <i><i class="fa-brands fa-square-github px-1"></i></i>
+         <i><i class="fa-brands fa-linkedin px-1"></i></i>
+         <i><i class="fa-brands fa-square-twitter px-1"></i></i>
+         <i><i class="fa-brands fa-square-facebook px-1"></i></i>
+        </div>
+        </footer>
 
 
 
@@ -248,9 +255,11 @@
 
 
 
-
+ 
     <!--Fontawesome-->
-    <script src="https://kit.fontawesome.com/4e9091f0e5.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/4e9091f0e5.js" crossorigin="anonymous"></script>   
+    <!--JS-->
+    <script src="assets/js/script.js"></script>
     <!--CDN bootstraps popper-->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
         integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
@@ -259,8 +268,7 @@
         integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
         crossorigin="anonymous"></script>
     <!--JQuery-->
-    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
-        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 </body>
 
 </html>
