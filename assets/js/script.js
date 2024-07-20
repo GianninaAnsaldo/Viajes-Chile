@@ -10,14 +10,15 @@ document.addEventListener('DOMContentLoaded', function () {
 });
 
 //Cambio color al hacer click
-$(document).ready(function () {
-    $("#inicio").on("click", function () {
-        $(this).css("color", "black");
+$(document).ready(function(){
+    $("#inicio").on("click", function(){
+        $(this).css("color", "cyan");
     });
 });
 
 $(document).ready(function () {
-    $("QuienesSomos").on("click", function () {
-        $(this).css("color", "cyan");
-    });
+   $("#inicio").click(function () {
+    $(this).css("color", "cyan");
+   });
 });
+
