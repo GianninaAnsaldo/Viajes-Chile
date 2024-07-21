@@ -13,10 +13,9 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
         rel="stylesheet">
-    <!--Link Js-->
-    <link rel="stylesheet" href="assets/js/script.js">
     <!--Link Css-->
     <link rel="stylesheet" href="assets/css/style.css">
+
     <title>Viajes chile</title>
 </head>
 
@@ -35,16 +34,17 @@
                     <div class="collapse navbar-collapse" id="navbarNav">
                         <ul class="navbar-nav ms-auto">
                             <li class="nav-item">
-                                <a class="nav-link active link-light" aria-current="page" id="inicio" href="#">Inicio</a>
+                                <a href="#inicio" class="nav-link active link-light" aria-current="page"
+                                    id="Inicio">Inicio</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link link-light" id="QuienesSomos" href="#">Quienes somos</a>
+                                <a href="#quienessomos" class="nav-link link-light" id="QuienesSomos">Quienes somos</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link link-light" id="Destacados" href="#">Destacados</a>
+                                <a href="#destacados" class="nav-link link-light" id="Destacados">Destacados</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link link-light" id="Contacto" href="#">Contacto</a>
+                                <a href="#contacto" class="nav-link link-light" id="Contacto">Contacto</a>
                             </li>
                         </ul>
                     </div>
@@ -54,7 +54,7 @@
     </header>
 
     <!--Hero section-->
-    <section id="Carrusel">
+    <section id="inicio" class="inicio">
         <div class="row">
             <div id="carouselExampleFade" class="carousel slide carousel-fade">
                 <div class="carousel-inner">
@@ -83,136 +83,135 @@
         </div>
     </section>
     <!--¿Quiénes somos?-->
-    <section id="quienessomos" class="bg-black d-none d-lg-block">
+    <section id="quienessomos" class="quienessomos bg-black d-none d-lg-block">
         <div class="container text-white">
+            <h2 class="text-center fw-light fs-4 pt-5 pb-2">¿QUIÉNES SOMOS?</h2>
+            <hr>
             <div class="row d-flex justify-content-center">
-                <h2 class="text-center fw-light fs-4 pt-5 pb-2">¿QUIÉNES SOMOS?</h2>
-                <hr>
-                <div class="container g-col-6 g-col-md-4 d-flex pt-3 pb-4">
-                    <div class="col-md-4 mx-3">
-                        <div id="IconP">
-                            <i id="IconP"><i class="fa-solid fa-plane"></i></i>    
-                        </div>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec mattis ante nulla. Donec in
-                            neque consectetur,
-                            ultrices
-                            justo eu, hendrerit lectus. Nullam fermentum turpis et dolor euismod consequat sed sed ante.
-                            Curabitur vel
-                            lacinia nisi.
-                            Sed mollis condimentum rhoncus. Proin sed diam eu risus auctor aliquet. Sed nisi lorem,
-                            mollis sit amet gravida
-                            in,
-                            finibus ut diam. Nunc cursus lacus ex, id interdum nibh tristique ac. Maecenas in mi
-                            blandit, euismod ipsum eu,
-                            lobortis
-                            nisi. Interdum et malesuada fames ac ante ipsum primis in faucibus. Mauris ultricies sem eu
-                            massa pellentesque,
-                            id
-                            interdum nibh luctus. Nam ac orci id neque posuere aliquam.</p>
+                <div class="col-md-4">
+                    <div id="IconP">
+                        <i id="IconP"><i class="fa-solid fa-plane"></i></i>
                     </div>
-                    <div class="col-md-4 mx-3">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec mattis ante nulla. Donec in
-                            neque consectetur,
-                            ultrices
-                            justo eu, hendrerit lectus. Nullam fermentum turpis et dolor euismod consequat sed sed ante.
-                            Curabitur vel
-                            lacinia nisi.
-                            Sed mollis condimentum rhoncus. Proin sed diam eu risus auctor aliquet. Sed nisi lorem,
-                            mollis sit amet gravida
-                            in,
-                            finibus ut diam. Nunc cursus lacus ex, id interdum nibh tristique ac. Maecenas in mi
-                            blandit, euismod ipsum eu,
-                            lobortis
-                            nisi. Interdum et malesuada fames ac ante ipsum primis in faucibus. Mauris ultricies sem eu
-                            massa pellentesque,
-                            id
-                            interdum nibh luctus. Nam ac orci id neque posuere aliquam.</p>
-                        <div id="IconP">
-                            <i id="IconP"><i class="fa-solid fa-mountain"></i></i>    
-                        </div>
-                    </div>
-                    <div class="col-md-4 mx-3">
-                        <div id="IconP">
-                           <i id="IconP"><i class="fa-solid fa-route"></i></i>    
-                        </div>
-                        
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec mattis ante nulla. Donec in
-                            neque
-                            consectetur, ultrices
-                            justo eu, hendrerit lectus. Nullam fermentum turpis et dolor euismod consequat sed sed ante.
-                            Curabitur vel
-                            lacinia nisi.
-                            Sed mollis condimentum rhoncus. Proin sed diam eu risus auctor aliquet. Sed nisi lorem,
-                            mollis sit amet gravida
-                            in,
-                            finibus ut diam. Nunc cursus lacus ex, id interdum nibh tristique ac. Maecenas in mi
-                            blandit, euismod ipsum eu,
-                            lobortis
-                            nisi. Interdum et malesuada fames ac ante ipsum primis in faucibus. Mauris ultricies sem eu
-                            massa pellentesque,
-                            id
-                            interdum nibh luctus. Nam ac orci id neque posuere aliquam.</p>
+                    <p id="p-plane">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec mattis ante nulla. Donec in
+                        neque consectetur,
+                        ultrices
+                        justo eu, hendrerit lectus. Nullam fermentum turpis et dolor euismod consequat sed sed ante.
+                        Curabitur vel
+                        lacinia nisi.
+                        Sed mollis condimentum rhoncus. Proin sed diam eu risus auctor aliquet. Sed nisi lorem,
+                        mollis sit amet gravida
+                        in,
+                        finibus ut diam. Nunc cursus lacus ex, id interdum nibh tristique ac. Maecenas in mi
+                        blandit, euismod ipsum eu,
+                        lobortis
+                        nisi. Interdum et malesuada fames ac ante ipsum primis in faucibus. Mauris ultricies sem eu
+                        massa pellentesque,
+                        id
+                        interdum nibh luctus. Nam ac orci id neque posuere aliquam.</p>
+                </div>
+                <div class="col-md-4">
+                    <p id="p-mountain">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec mattis ante nulla. Donec in
+                        neque consectetur,
+                        ultrices
+                        justo eu, hendrerit lectus. Nullam fermentum turpis et dolor euismod consequat sed sed ante.
+                        Curabitur vel
+                        lacinia nisi.
+                        Sed mollis condimentum rhoncus. Proin sed diam eu risus auctor aliquet. Sed nisi lorem,
+                        mollis sit amet gravida
+                        in,
+                        finibus ut diam. Nunc cursus lacus ex, id interdum nibh tristique ac. Maecenas in mi
+                        blandit, euismod ipsum eu,
+                        lobortis
+                        nisi. Interdum et malesuada fames ac ante ipsum primis in faucibus. Mauris ultricies sem eu
+                        massa pellentesque,
+                        id
+                        interdum nibh luctus. Nam ac orci id neque posuere aliquam.</p>
+                    <div id="IconP">
+                        <i id="IconP"><i class="fa-solid fa-mountain"></i></i>
                     </div>
                 </div>
+                <div class="col-md-4">
+                    <div id="IconP">
+                        <i id="IconP"><i class="fa-solid fa-route"></i></i>
+                    </div>
+
+                    <p id="p-route">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec mattis ante nulla. Donec in
+                        neque
+                        consectetur, ultrices
+                        justo eu, hendrerit lectus. Nullam fermentum turpis et dolor euismod consequat sed sed ante.
+                        Curabitur vel
+                        lacinia nisi.
+                        Sed mollis condimentum rhoncus. Proin sed diam eu risus auctor aliquet. Sed nisi lorem,
+                        mollis sit amet gravida
+                        in,
+                        finibus ut diam. Nunc cursus lacus ex, id interdum nibh tristique ac. Maecenas in mi
+                        blandit, euismod ipsum eu,
+                        lobortis
+                        nisi. Interdum et malesuada fames ac ante ipsum primis in faucibus. Mauris ultricies sem eu
+                        massa pellentesque,
+                        id
+                        interdum nibh luctus. Nam ac orci id neque posuere aliquam.</p>
+                </div>
             </div>
+
         </div>
     </section>
     <!--Destacados-->
-    <section id="destacados" class="bg-black">
+    <section id="destacados" class="destacados bg-black">
         <div class="container">
             <div class="row">
                 <h2 class="text-center fw-light text-white fs-4 pt-5 pb-2">DESTACADOS</h2>
                 <hr>
                 <div class="row gap-4 justify-content-evenly">
-                        <div class="card col-10 col-sm-5 col-md-4 p-0 bg-info text-white rounded-0" style="width: 19rem;">
-                            <img src="assets/img/card1.jpg" class="card-img-top rounded-0" alt="...">
-                            <div class="card-body">
-                                <h5>Lorem ipsum dolor sit amet</h5>
-                                <p>Lorem ipsum dolor sit amet,
-                                    consectetur adipiscing elit, sed do
-                                    eiusmod tempor incididunt ut labore
-                                    et dolore magna aliqua.</p>
-                            </div>
+                    <div id="card" class="card col-10 col-sm-5 col-md-4 p-0 bg-info text-white rounded-0" style="width: 19rem;">
+                        <img src="assets/img/card1.jpg" class="card-img-top rounded-0" alt="...">
+                        <div class="card-body">
+                            <h5>Lorem ipsum dolor sit amet</h5>
+                            <p class="p-card" style="display: none;">Lorem ipsum dolor sit amet,
+                                consectetur adipiscing elit, sed do
+                                eiusmod tempor incididunt ut labore
+                                et dolore magna aliqua.</p>
                         </div>
-                        <div class="card col-10 col-sm-5 col-md-4 p-0 bg-info text-white rounded-0" style="width: 19rem;">
-                            <img src="assets/img/card2.jpg" class="card-img-top rounded-0" height="201.33px" alt="...">
-                            <div class="card-body">
-                                <h5>Consectetur adipiscing elit</h5>
-                                <p>Lorem ipsum dolor sit amet,
-                                    consectetur adipiscing elit, sed do
-                                    eiusmod tempor incididunt ut labore
-                                    et dolore magna aliqua.</p>
-                            </div>
+                    </div>
+                    <div id="card" class="card col-10 col-sm-5 col-md-4 p-0 bg-info text-white rounded-0" style="width: 19rem;">
+                        <img src="assets/img/card2.jpg" class="card-img-top rounded-0" height="201.33px" alt="...">
+                        <div class="card-body">
+                            <h5>Consectetur adipiscing elit</h5>
+                            <p class="p-card" style="display: none;">Lorem ipsum dolor sit amet,
+                                consectetur adipiscing elit, sed do
+                                eiusmod tempor incididunt ut labore
+                                et dolore magna aliqua.</p>
                         </div>
-                        <div class="card col-10 col-sm-5 col-md-4 p-0 bg-info text-white rounded-0" style="width: 19rem;">
-                            <img src="assets/img/card3.jpg" class="card-img-top rounded-0" alt="...">
-                            <div class="card-body">
-                                <h5>Sed do eiusmod tempor</h5>
-                                <p>incididunt ut labore
-                                    Lorem ipsum dolor sit amet,
-                                    consectetur adipiscing elit, sed do
-                                    eiusmod tempor incididunt ut labore
-                                    et dolore magna aliqua.</p>
-                            </div>
+                    </div>
+                    <div id="card" class="card col-10 col-sm-5 col-md-4 p-0 bg-info text-white rounded-0" style="width: 19rem;">
+                        <img src="assets/img/card3.jpg" class="card-img-top rounded-0" alt="...">
+                        <div class="card-body">
+                            <h5>Sed do eiusmod tempor</h5>
+                            <p class="p-card" style="display: none;">incididunt ut labore
+                                Lorem ipsum dolor sit amet,
+                                consectetur adipiscing elit, sed do
+                                eiusmod tempor incididunt ut labore
+                                et dolore magna aliqua.</p>
                         </div>
-                        <div class="card col-10 col-sm-5 col-md-4 p-0 bg-info text-white rounded-0" style="width: 19rem;">
-                            <img src="assets/img/card4.jpg" class="card-img-top rounded-0" alt="...">
-                            <div class="card-body">
-                                <h5>Ut enim ad minim veniam</h5>
-                                <p>Lorem ipsum dolor sit amet,
-                                    consectetur adipiscing elit, sed do
-                                    eiusmod tempor incididunt ut labore
-                                    et dolore magna aliqua.</p>
-                            </div>
+                    </div>
+                    <div id="card" class="card col-10 col-sm-5 col-md-4 p-0 bg-info text-white rounded-0" style="width: 19rem;">
+                        <img src="assets/img/card4.jpg" class="card-img-top rounded-0" alt="...">
+                        <div class="card-body">
+                            <h5>Ut enim ad minim veniam</h5>
+                            <p class="p-card" style="display: none;">Lorem ipsum dolor sit amet,
+                                consectetur adipiscing elit, sed do
+                                eiusmod tempor incididunt ut labore
+                                et dolore magna aliqua.</p>
                         </div>
+                    </div>
                 </div>
 
             </div>
         </div>
     </section>
     <!--Formulario Contacto-->
-    <section class="p-5 mx-6 align-content-center bg-black text-white fw-light">
-        <div class="container">
+    <section id="contacto" class="contacto p-5 mx-6 align-content-center bg-black text-white fw-light">
+        <div class="container pb-5">
             <h2 class="text-center fw-light text-white fs-4 pt-5 pb-2">CONTACTO</h2>
             <hr>
             <form>
@@ -224,27 +223,30 @@
                     <label for="exampleInputAsunto" class="form-label fw-bold">Asunto</label>
                     <input type="asunto" class="asunto form-control" id="exampleInputAsunto" placeholder="Asunto">
                 </div>
-                <div class="mb-3">
+                <div class="mb-5">
                     <label for="exampleFormControlTextarea1" class="form-label fw-bold">Mensaje</label>
                     <textarea class="form-control" placeholder="Escribe aquí tu mensaje" id="floatingTextarea2"
                         style="height: 100px"></textarea>
                 </div>
                 <div>
-                    <button type="button" class="btn btn-hero-solid text-white py-1 px-4" id="EnviarCorreo" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Enviar por correo">Enviar</button>
+                    <button type="button" class="btn btn-hero-solid text-white py-1 px-4" id="EnviarCorreo"
+                        data-bs-toggle="tooltip" data-bs-placement="bottom" class="tooltip"
+                        title="Enviar por correo">Enviar</button>
                 </div>
             </form>
         </div>
     </section>
     <!--Footer-->
     <footer class="text-white py-4 px-5 d-flex justify-content-evenly">
-         <h5 class="fw-light d-inline">VIAJES CHILE</h5>
-        <div> 
-         <i><i class="fa-brands fa-square-github px-1"></i></i>
-         <i><i class="fa-brands fa-linkedin px-1"></i></i>
-         <i><i class="fa-brands fa-square-twitter px-1"></i></i>
-         <i><i class="fa-brands fa-square-facebook px-1"></i></i>
+        <h5 class="fw-light d-inline">VIAJES CHILE</h5>
+        <div>
+            <a href="https://github.com/" class="link-light"><i class="fa-brands fa-square-github px-1"></i></a>
+            <a href="https://www.linkedin.com/" class="link-light"><i class="fa-brands fa-linkedin px-1"></i></a>
+            <a href="https://x.com/" class="link-light"><i class="fa-brands fa-square-twitter px-1"></i></a>
+            <a href="https://es-la.facebook.com/" class="link-light"><i
+                    class="fa-brands fa-square-facebook px-1"></i></a>
         </div>
-        </footer>
+    </footer>
 
 
 
@@ -254,10 +256,11 @@
 
 
 
-
- 
+<!--JQuery-->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
     <!--Fontawesome-->
-    <script src="https://kit.fontawesome.com/4e9091f0e5.js" crossorigin="anonymous"></script>   
+    <script src="https://kit.fontawesome.com/4e9091f0e5.js" crossorigin="anonymous"></script>
     <!--JS-->
     <script src="assets/js/script.js"></script>
     <!--CDN bootstraps popper-->
@@ -267,9 +270,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
         integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
         crossorigin="anonymous"></script>
-    <!--JQuery-->
-    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
-        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    
 </body>
 
 </html>
